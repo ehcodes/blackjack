@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+      <title>Blackjack</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="container">
+      <section class="jumbotron text-center">
+          <h1>Play Blackjack</h1>
+          <section class="money">
+            <!-- player cash amout -->
+            <input id="cash" type="number" name="" value="" placeholder="Enter your pool">
+            <!-- player bet amlount -->
+            <input id="bet" type="number" name="" value="" placeholder="place your bet!">
+            <button id="drawbtn" class="btn btn-default">Draw a Card</button>
+
+          </section>
+            <section class="card template">
+              <span class="rank">10</span>
+              <span class="suit">Hearts</span>
+            </section>
+            <section class="playerCards">
+              <h3>Dealer Cards</h3>
+            </section>
+            <section class="dealerCards">
+              <h3>Player Cards</h3>
+            </section>
+            <section id="winOrLose">
+              <h1></h1>
+            </section>
+          <section class="dealerLogin">
+            <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+            <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+          </section>
+      </section>
+  </section>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  </body>
+</html>
